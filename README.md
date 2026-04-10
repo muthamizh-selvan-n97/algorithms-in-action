@@ -1,7 +1,5 @@
 # Algorithms in Action
-
 **By Muthamil Selvan N — Principal Engineer - Motor Control & Embedded Systems**
-
 > *Deep dives on algorithms that power, control, and learn — implemented on motors, converters, and energy systems.*
 
 Companion repository for the [Algorithms in Action](https://www.linkedin.com/newsletters/algorithms-in-action-7404786715468402688/) newsletter on LinkedIn.
@@ -18,7 +16,7 @@ cd algorithms-in-action
 pip install -r requirements.txt
 ```
 
-Then navigate to any algorithm folder and run its script.
+Or open any notebook directly in Google Colab — no install needed.
 
 ---
 
@@ -26,10 +24,9 @@ Then navigate to any algorithm folder and run its script.
 
 ### Motor Control
 
-| Issue | Algorithm | Folder |
-|---|---|---|
-| #01 | Coordinate Transformation | [motor-control/foc](./motor-control/foc/) |
-
+| Issue | Algorithm | Folder | Colab |
+|---|---|---|---|
+| #01 | Coordinate Transformation | [motor-control/foc](./motor-control/foc/) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muthamizh-selvan-n97/algorithms-in-action/blob/main/motor-control/foc/coordinate_transform.ipynb) |
 
 ### Power Conversion
 
@@ -49,16 +46,13 @@ Then navigate to any algorithm folder and run its script.
 
 ```
 algorithms-in-action/
-├── README.md               ← you are here
-├── requirements.txt        ← global dependencies (one install for all)
-├── motor-control/
-│   ├── foc/
-│   │   ├── README.md       ← algorithm-specific docs + math
-│   │   └── coordinate_transform.py
-│   ├── ipd/
-│   └── smo-pll/
-├── power-conversion/
-└── energy-systems/
+├── README.md                    ← you are here
+├── requirements.txt             ← global dependencies (one install for all)
+├── assets/                      ← GIFs and images for READMEs
+└── motor-control/
+    └── foc/
+        ├── README.md            ← algorithm-specific docs + math reference
+        └── coordinate_transform.ipynb
 ```
 
 ---
