@@ -26,23 +26,22 @@ Then navigate to any algorithm folder and run its script.
 
 ### Motor Control
 
-| Algorithm | Folder | Issue | Hardware |
-|---|---|---|---|
-| FOC — Field Oriented Control | [motor-control/foc](./motor-control/foc/) | #01 | 200W PMSM air circulator |
-| IPD — Initial Position Detection | [motor-control/ipd](./motor-control/ipd/) | #02 | 35W BLDC ceiling fan |
-| SMO-PLL — Sensorless observer | [motor-control/smo-pll](./motor-control/smo-pll/) | #03 | 200W PMSM air circulator |
+| Issue | Algorithm | Folder |
+|---|---|---|
+| #01 | Coordinate Transformation | [motor-control/foc](./motor-control/foc/) |
+
 
 ### Power Conversion
 
-| Algorithm | Folder | Issue | Hardware |
-|---|---|---|---|
-| *(coming)* | [power-conversion](./power-conversion/) | — | — |
+| Issue | Algorithm | Folder |
+|---|---|---|
+| *(coming)* | — | — |
 
 ### Energy Systems
 
-| Algorithm | Folder | Issue | Hardware |
-|---|---|---|---|
-| *(coming)* | [energy-systems](./energy-systems/) | — | — |
+| Issue | Algorithm | Folder |
+|---|---|---|
+| *(coming)* | — | — |
 
 ---
 
